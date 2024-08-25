@@ -11,3 +11,13 @@ if "masala" in chai:
 
 chai["earl grey"]="citrus"
 print(chai)
+
+print ("pooooooooooooooooooooop")
+chai.pop("masala")
+print(chai)
+
+chai.popitem()
+print(chai)
+
+del chai["tulsi"]
+print(chai)
